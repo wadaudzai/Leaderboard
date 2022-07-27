@@ -1,15 +1,7 @@
-import _ from 'lodash';
-import './style.css'
-function component() {
-    const element = document.createElement('div');
-  
-    // Lodash, currently included via a script, is required for this line to work
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('walid');
-  
-    return element;
-  }
-  
-  document.body.appendChild(component());
+import './style.css';
+
+import showScores from './modules/show.js';
+
+window.addEventListener('DOMContentLoaded', () => showScores());
 
   
