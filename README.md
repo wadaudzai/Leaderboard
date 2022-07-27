@@ -1,7 +1,5 @@
 # Leaderboard
 
-# Hello Microverse
-
 This project was built to display a leaderboard that displays scores submitted by different players. This project was built using webpack and will be served using webpack dev server.
 
 > This is a project containing several file such as: 
