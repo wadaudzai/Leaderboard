@@ -1,86 +1,85 @@
 .main-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .h1 {
-    font-size: 4vw;
-    font-family: sans-serif;
+  font-size: 4vw;
+  font-family: sans-serif;
 }
 
 .h2 {
-    font-size: 2vw;
-    font-family: sans-serif;
+  font-size: 2vw;
+  font-family: sans-serif;
 }
 
 .refresh-btn {
-    height: fit-content;
-    padding: 10px 15px;
-    font-weight: 700;
-    background-color: #fff;
-    border: 3px solid;
-    box-shadow: 2px 2px #000
+  padding: 10px 15px;
+  font-weight: 700;
+  background-color: #fff;
+  border: 3px solid;
+  box-shadow: 2px 2px #000;
 }
 
 .score-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .scoreboard {
-    border: 3px solid;
-    margin: 0px 30px;
+  border: 3px solid;
+  margin: 0 30px;
 }
 
 .scores {
-    padding: 0px;
-    margin: 0px;
-}
-
-.single-score:nth-child(odd){
-    background-color: #d3d3d3;
+  padding: 0;
+  margin: 0;
 }
 
 .single-score {
-    display: flex;
-    padding-left: 5px;
+  display: flex;
+  padding-left: 5px;
+}
+
+.single-score:nth-child(odd) {
+  background-color: #d3d3d3;
 }
 
 .name-p {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .second-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 40%;
-    gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  gap: 8px;
 }
 
 .input {
-    border: 3px solid;
-    width: 90%;
-    padding: 5px;
+  border: 3px solid;
+  width: 90%;
+  padding: 5px;
 }
 
-::placeholder{
-    color: #000;
-    font-weight: 700;
+::placeholder {
+  color: #000;
+  font-weight: 700;
 }
 
 .submit-btn {
-    padding: 10px 15px;
-    border: 3px solid;
-    background-color: #fff;
-    font-weight: 700;
-    align-self: flex-end;
-    box-shadow: 2px 2px #000
+  padding: 10px 15px;
+  border: 3px solid;
+  background-color: #fff;
+  font-weight: 700;
+  align-self: flex-end;
+  box-shadow: 2px 2px #000;
 }

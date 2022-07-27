@@ -1,8 +1,8 @@
-import createDynamic from "./scores.js";
+import createDynamic from './scores.js';
 
 const showScores = () => {
-    const ul = document.querySelector('.scores');
-    ul.innerHTML = createDynamic();
-}
+  const ul = document.querySelector('.scores');
+  ul.innerHTML = createDynamic();
+};
 
 export default showScores;
