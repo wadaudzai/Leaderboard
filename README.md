@@ -1,6 +1,6 @@
 # Leaderboard
 
-This project was built to display a leaderboard that displays scores submitted by different players. This project was built using webpack and will be served using webpack dev server.
+This project was built to display a leaderboard that displays scores submitted by different players. This application makes use of the API, send a recieve data to and from the API. This project was built using webpack and will be served using webpack dev server.
 
 > This is a project containing several file such as: 
 1. index.html
