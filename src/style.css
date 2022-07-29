@@ -1,11 +1,24 @@
+html {
+  background: url(./assets/Images/bg-hamoto.webp) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .main-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  height: 100%;
+  align-items: center;
+  color: #fff;
 }
 
 .h1 {
   font-size: 4vw;
   font-family: sans-serif;
+  color: #fff;
+  margin-left: 3rem;
 }
 
 .h2 {
@@ -16,34 +29,43 @@
 .refresh-btn {
   padding: 10px 15px;
   font-weight: 700;
-  background-color: #fff;
+  background-color: #87ceeb;
   border: 3px solid;
   box-shadow: 2px 2px #000;
+  border-radius: 8px;
+}
+
+.refresh-btn:hover {
+  background-color: #fff;
 }
 
 .score-header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .scoreboard {
-  border: 3px solid;
   margin: 0 30px;
 }
 
 .scores {
   padding: 0;
   margin: 0;
+  border: 3px solid;
 }
 
 .single-score {
   display: flex;
   padding-left: 5px;
+  background-color: rgb(255, 255, 255, 0.0);
+  color: #fff;
+  padding: 2px 0px;
 }
 
 .single-score:nth-child(odd) {
-  background-color: #d3d3d3;
+  background-color: #87ceeb;
+  color: #000;
 }
 
 .name-p {
@@ -60,14 +82,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40%;
+  width: 100%;
   gap: 8px;
+  margin-right: 16px;
 }
 
-.input {
+.nameInput {
   border: 3px solid;
   width: 90%;
-  padding: 5px;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.scoreInput {
+  border: 3px solid;
+  width: 90%;
+  padding: 12px;
+  border-radius: 8px;
 }
 
 ::placeholder {
@@ -77,9 +108,17 @@
 
 .submit-btn {
   padding: 10px 15px;
+  margin-right: 1.5rem;
   border: 3px solid;
   background-color: #fff;
   font-weight: 700;
   align-self: flex-end;
   box-shadow: 2px 2px #000;
+  background-color: #87ceeb;
+  border-radius: 8px;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  color: #000;
 }
