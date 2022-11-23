@@ -14,6 +14,7 @@ const getScore = () => {
       }
       for (let i = 0; i < jawab.length; i += 1) {
         const newResult = document.createElement('li');
+        newResult.classList.add('single-score');
         newResult.textContent = `${i + 1} - ${jawab[i].user} : ${jawab[i].score}`;
         ul.appendChild(newResult);
       }
